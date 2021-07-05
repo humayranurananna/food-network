@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.flexible-container{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+    margin: 0 0 10px 0;
+}
+.orange-color{
+    color: #db6250;
+}
+.anchor-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right,#e9945f,#cf2406);
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+p{
+    color: #524f4f;
+}
+.half-width1{
+    width: 50%;
+    padding-top: 10%;
+    padding-left: 6%;
+}
+.half-width2{
+    width: 50%;   
+}
+.header img{
+    width: 93%;
+}
