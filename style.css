@@ -8,7 +8,7 @@ body{
 .header{
     margin-bottom: 50px;
 }
-h1{
+.header h1{
     font-size: 50px;
     margin: 0 0 10px 0;
 }
@@ -37,6 +37,11 @@ p{
 .header img{
     width: 93%;
 }
+.about h1{
+    font-size: 40px;
+    color: rgb(66, 62, 62);
+    margin: 0 0 10px 0;
+}
 .about{
     background-image: url(images/about-background.jpg);
     background-repeat: no-repeat;
@@ -55,4 +60,62 @@ p{
 .about-half-width2{
     width: 50%;
     padding-top: 7%;
+}
+.recipes{
+    margin: 45px 0;
+}
+.recipes-heading{
+    text-align: center;
+    padding-bottom: 18px;
+}
+.recipes-heading h1{
+    margin-bottom: 0;
+    font-size: 40px;
+    color: rgb(66, 62, 62);
+}
+.recipes-heading p{
+    margin-top: 0;
+}
+.recipes-item1{
+    width: 26%;
+    margin-left: 7%;
+    margin-right: 4% ;
+    box-shadow: 0 6px 15px rgba(0,0,0,.2);
+    padding: 15px;
+    border-radius: 15px;
+}
+.recipes-item1 img{
+    width: 100%;
+}
+.recipes-item2{
+    width: 26%;
+    box-shadow: 0 6px 15px rgba(0,0,0,.2);
+    padding: 15px;
+    border-radius: 15px;
+}
+.recipes-item2 img{
+    width: 100%;
+}
+.recipes-item3{
+    width: 26%;
+    margin-left: 4%;
+    margin-right: 7% ;
+    box-shadow: 0 6px 15px rgba(0,0,0,.2);
+    padding: 15px;
+    border-radius: 15px;
+}
+.recipes-item3 img{
+    width: 100%;
+}
+footer .gray-color{
+    color: rgb(66, 68, 70);
+}
+footer{
+    background-color: rgb(28, 29, 31);
+    text-align: center;
+    padding: 25px 0 70px 0;
+}
+footer p{
+    color: white;
+    font-size: 14px;
 }
