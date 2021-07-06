@@ -2,6 +2,19 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+.menu{
+    background-color: rgb(28, 29, 31);
+    text-align: center;
+}
+.menu ul{
+    margin: 0;
+} 
+.menu ul li{
+    display: inline-block;
+    color: white;
+    list-style: none;
+    padding: 30px;
+}
 .flexible-container{
     display: flex;
 }
