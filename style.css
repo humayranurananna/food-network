@@ -15,7 +15,7 @@ body{
 .orange-color{
     color: #db6250;
 }
-.anchor-button{
+.link-button{
     text-decoration: none;
     color: white;
     background-image: linear-gradient(to right,#e9945f,#cf2406);
@@ -34,7 +34,7 @@ p{
 .header-half-width2{
     width: 50%;   
 }
-.header img{
+.header-half-width2 img{
     width: 93%;
 }
 .about h1{
@@ -64,34 +64,34 @@ p{
 .recipes{
     margin: 45px 0 80px 0;
 }
-.recipes-heading{
+.recipes-title{
     text-align: center;
     padding-bottom: 18px;
 }
-.recipes-heading h1{
+.recipes-title h1{
     margin-bottom: 0;
     font-size: 40px;
     color: rgb(66, 62, 62);
 }
-.recipes-heading p{
+.recipes-title p{
     margin-top: 0;
 }
 .recipes-item1{
     width: 26%;
     margin-left: 7%;
-    margin-right: 4% ;
-    box-shadow: 0 6px 15px rgba(0,0,0,.2);
+    margin-right: 4%;
     padding: 15px;
     border-radius: 15px;
+    box-shadow: 1px 3px 13px rgba(0,0,0,.2);
 }
 .recipes-item1 img{
     width: 100%;
 }
 .recipes-item2{
     width: 26%;
-    box-shadow: 0 6px 15px rgba(0,0,0,.2);
     padding: 15px;
     border-radius: 15px;
+    box-shadow: 1px 3px 13px rgba(0,0,0,.2);
 }
 .recipes-item2 img{
     width: 100%;
@@ -99,21 +99,21 @@ p{
 .recipes-item3{
     width: 26%;
     margin-left: 4%;
-    margin-right: 7% ;
-    box-shadow: 0 6px 15px rgba(0,0,0,.2);
+    margin-right: 7%;
     padding: 15px;
     border-radius: 15px;
+    box-shadow: 1px 3px 13px rgba(0,0,0,.2);
 }
 .recipes-item3 img{
     width: 100%;
 }
 .social-media{
     width: 86%;
-    margin-left: 7.1%;
-    box-shadow: 0 6px 15px rgba(0,0,0,.2);
+    margin: auto;
     margin-bottom: 80px;
     padding: 18px 0;
     border-radius: 15px;
+    box-shadow: 1px 3px 25px rgba(0,0,0,.2);
 }
 .social-media-item1{
     width: 26%;
@@ -127,7 +127,7 @@ p{
 .social-media-item3{
     width: 26%;
     margin-left: 4%;
-    margin-right: 7% ;
+    margin-right: 7%;
 }
 .contact{
     text-align: center;
@@ -135,7 +135,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 40px 0 90px 0;
+    padding: 40px 0 100px 0;
 }
 .contact h1{
     font-size: 50px;
@@ -143,6 +143,9 @@ p{
 .contact h2{
     font-size: 40px;
     margin: 0;
+}
+.pink-color{
+    color: #df0e9d;
 }
 input[type="email"]{
     border-radius: 30px;
@@ -152,6 +155,11 @@ input[type="email"]{
 }
 input[type="button"]{
     border: none;
+    color: white;
+    background-image: linear-gradient(to right,#dd81b7,#df0e9d);
+    padding: 12px 35px;
+    border-radius: 30px;
+    font-weight: 700;
 }
 footer .gray-color{
     color: rgb(66, 68, 70);
