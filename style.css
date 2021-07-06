@@ -62,7 +62,7 @@ p{
     padding-top: 7%;
 }
 .recipes{
-    margin: 45px 0;
+    margin: 45px 0 80px 0;
 }
 .recipes-heading{
     text-align: center;
@@ -106,6 +106,52 @@ p{
 }
 .recipes-item3 img{
     width: 100%;
+}
+.social-media{
+    width: 86%;
+    margin-left: 7.1%;
+    box-shadow: 0 6px 15px rgba(0,0,0,.2);
+    margin-bottom: 80px;
+    padding: 18px 0;
+    border-radius: 15px;
+}
+.social-media-item1{
+    width: 26%;
+    margin-left: 7%;
+    margin-right: 4%;
+    padding-left: 7%;
+}
+.social-media-item2{
+    width: 26%;
+}
+.social-media-item3{
+    width: 26%;
+    margin-left: 4%;
+    margin-right: 7% ;
+}
+.contact{
+    text-align: center;
+    background-image: url(images/contact-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0 90px 0;
+}
+.contact h1{
+    font-size: 50px;
+}
+.contact h2{
+    font-size: 40px;
+    margin: 0;
+}
+input[type="email"]{
+    border-radius: 30px;
+    padding: 12px 8px;
+    border: none;
+    width: 300px;
+}
+input[type="button"]{
+    border: none;
 }
 footer .gray-color{
     color: rgb(66, 68, 70);
