@@ -99,6 +99,7 @@ p{
 }
 .recipes-item1 img{
     width: 100%;
+    border-radius: 15px;
 }
 .recipes-item2{
     width: 26%;
@@ -108,6 +109,7 @@ p{
 }
 .recipes-item2 img{
     width: 100%;
+    border-radius: 15px;
 }
 .recipes-item3{
     width: 26%;
@@ -119,6 +121,7 @@ p{
 }
 .recipes-item3 img{
     width: 100%;
+    border-radius: 15px;
 }
 .social-media{
     width: 86%;
